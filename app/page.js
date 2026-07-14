@@ -174,9 +174,9 @@ export default function HomePage() {
         <div className={`container ${styles.bookingInner}`}>
           <div className={styles.bookingText}>
             <span className={styles.bookingBadge}>📅 Free Consultation</span>
-            <h2 className={styles.bookingTitle}>Got a project in mind?<br/>Let's talk — on us.</h2>
+            <h2 className={styles.bookingTitle}>Got a project in mind?<br/>Let&apos;s talk — on us.</h2>
             <p className={styles.bookingDesc}>
-              Book a free 30-minute strategy call. We'll listen, advise, and outline a plan tailored
+              Book a free 30-minute strategy call. We&apos;ll listen, advise, and outline a plan tailored
               to your brand — with zero pressure.
             </p>
           </div>
