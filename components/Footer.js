@@ -54,8 +54,8 @@ export default function Footer() {
           <h4>Get in Touch</h4>
           <ul className={styles.contactList}>
             <li><Icon name="location" size={16} /> Bengaluru, Karnataka, India</li>
-            <li><Icon name="phone" size={16} /> <a href="tel:+919663319527">+91 96633 19527</a> / <a href="tel:+918073810876">+91 80738 10876</a></li>
-            <li><Icon name="email" size={16} /> <a href="mailto:rajumthpt@gmail.com">rajumthpt@gmail.com</a><br/><a href="mailto:kamblevinaychand74@gmail.com">kamblevinaychand74@gmail.com</a></li>
+            <li><Icon name="phone" size={16} /> <a href="tel:+918618914432">+91 86189 14432</a></li>
+            <li><Icon name="email" size={16} /> <a href="mailto:rajumthpt@gmail.com">rajumthpt@gmail.com</a><br/><a href="mailto:nexradigital9@gmail.com">nexradigital9@gmail.com</a></li>
           </ul>
         </div>
       </div>

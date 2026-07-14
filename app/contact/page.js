@@ -43,7 +43,7 @@ export default function ContactPage() {
               <h3>Business Information</h3>
               <ul className={styles.infoList}>
                 <li><Icon name="phone" size={18} /> <a href="tel:+918618914432">+91 86189 14432</a></li>
-                <li><Icon name="email" size={18} /> <a href="mailto:nexradigital9@gmail.com">nexradigital9@gmail.com</a></li>
+                <li><Icon name="email" size={18} /> <a href="mailto:rajumthpt@gmail.com">rajumthpt@gmail.com</a><br/><a href="mailto:nexradigital9@gmail.com" style={{marginLeft: '26px'}}>nexradigital9@gmail.com</a></li>
                 <li><Icon name="delivery" size={18} /> Mon &ndash; Sat, 9:00 AM &ndash; 7:00 PM IST</li>
               </ul>
               <div className={styles.social}>
