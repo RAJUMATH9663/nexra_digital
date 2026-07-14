@@ -1,0 +1,25 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Real Estate Websites">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="35" y="14" width="330" height="170" rx="13" fill="none" stroke="#448aff" stroke-width="2.5" opacity="0.9"/>
+    <rect x="35" y="14" width="330" height="32" rx="13" fill="#448aff" opacity="0.2"/>
+    <rect x="44" y="54" width="312" height="108" rx="7" fill="#448aff" opacity="0.1"/>
+    <polygon points="200,62 270,102 270,158 130,158 130,102" fill="none" stroke="#82b1ff" stroke-width="2.5" opacity="0.8"/>
+    <polygon points="200,62 130,102 270,102" fill="#448aff" opacity="0.18"/>
+    <rect x="55" y="165" width="130" height="12" rx="4" fill="#448aff" opacity="0.35"/>
+    <rect x="200" y="165" width="130" height="12" rx="4" fill="#82b1ff" opacity="0.3"/></g>
+</svg>

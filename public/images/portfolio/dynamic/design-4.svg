@@ -1,0 +1,26 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Flyers">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#031520"/>
+      <stop offset="100%" stop-color="#073d5e"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="110" y="8" width="180" height="168" rx="9" fill="none" stroke="#00e5ff" stroke-width="2.5" opacity="0.9"/>
+    <rect x="118" y="16" width="164" height="152" rx="6" fill="#00e5ff" opacity="0.08"/>
+    <rect x="118" y="16" width="164" height="85" rx="6" fill="#00e5ff" opacity="0.18"/>
+    <circle cx="200" cy="58" r="26" fill="#80deea" opacity="0.35"/>
+    <rect x="128" y="114" width="144" height="14" rx="3" fill="#00e5ff" opacity="0.4"/>
+    <rect x="136" y="136" width="128" height="9" rx="3" fill="#80deea" opacity="0.26"/>
+    <rect x="142" y="152" width="116" height="8" rx="3" fill="#80deea" opacity="0.22"/>
+    <rect x="124" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="142" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="160" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="178" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="196" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="214" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="232" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="250" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/><rect x="268" y="172" width="13" height="20" rx="2" fill="#00e5ff" opacity="0.3"/></g>
+</svg>

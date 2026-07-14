@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Drone Videography">
+<defs>
+  <linearGradient id="pc168" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0b3d91"/>
+    <stop offset="100%" stop-color="#123163"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="260" fill="url(#pc168)"/>
+<circle cx="298" cy="134" r="1.5" fill="#ffffff" opacity="0.12"/>
+<circle cx="76" cy="224" r="1.7" fill="#ffffff" opacity="0.21"/>
+<circle cx="244" cy="232" r="1.9" fill="#ffffff" opacity="0.10"/>
+<circle cx="353" cy="109" r="1.5" fill="#ffffff" opacity="0.14"/>
+<circle cx="378" cy="98" r="2.4" fill="#ffffff" opacity="0.25"/>
+<circle cx="102" cy="7" r="1.3" fill="#ffffff" opacity="0.20"/>
+<circle cx="62" cy="106" r="2.1" fill="#ffffff" opacity="0.08"/>
+<circle cx="169" cy="73" r="1.2" fill="#ffffff" opacity="0.15"/>
+<circle cx="165" cy="139" r="1.8" fill="#ffffff" opacity="0.19"/>
+<circle cx="345" cy="65" r="1.6" fill="#ffffff" opacity="0.16"/>
+<circle cx="259" cy="122" r="45" fill="#f0dfa6" opacity="0.1"/>
+<circle cx="133" cy="83" r="65" fill="#f0dfa6" opacity="0.1"/>
+<circle cx="203" cy="151" r="54" fill="#f0dfa6" opacity="0.1"/>
+<rect x="120" y="90" width="160" height="110" rx="8" fill="none" stroke="#f0dfa6" stroke-width="2.5" opacity="0.55"/>
+<circle cx="200" cy="145" r="34" fill="none" stroke="#f0dfa6" stroke-width="3" opacity="0.6"/>
+<circle cx="200" cy="145" r="13" fill="#f0dfa6" opacity="0.5"/>
+<line x1="0" y1="234" x2="400" y2="13" stroke="#d4af37" stroke-width="1.5" opacity="0.35"/>
+<text x="24" y="238" font-family="Montserrat, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Drone Videography</text>
+<text x="24" y="254" font-family="Poppins, sans-serif" font-size="10" fill="#d4af37" letter-spacing="1">Photography &amp; Videography</text>
+</svg>

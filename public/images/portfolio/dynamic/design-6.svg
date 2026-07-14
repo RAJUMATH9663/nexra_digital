@@ -1,0 +1,24 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Logo Design">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#031520"/>
+      <stop offset="100%" stop-color="#073d5e"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <polygon points="200,18 242,90 295,90 254,132 270,205 200,165 130,205 146,132 105,90 158,90" fill="none" stroke="#00e5ff" stroke-width="3" opacity="0.9"/>
+    <circle cx="200" cy="110" r="32" fill="#00e5ff" opacity="0.2"/>
+    <line x1="200" y1="5"  x2="200" y2="220" stroke="#80deea" stroke-width="1.2" opacity="0.22" stroke-dasharray="6 5"/>
+    <line x1="48" y1="110" x2="352" y2="110" stroke="#80deea" stroke-width="1.2" opacity="0.22" stroke-dasharray="6 5"/>
+    <polygon points="290,22 312,54 280,54" fill="#80deea" opacity="0.65"/>
+    <line x1="298" y1="26" x2="276" y2="8" stroke="#80deea" stroke-width="2.5" opacity="0.7"/></g>
+</svg>

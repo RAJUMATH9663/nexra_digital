@@ -1,0 +1,22 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Content Planning">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="42" y="18" width="316" height="158" rx="12" fill="none" stroke="#ff6090" stroke-width="2.5" opacity="0.9"/>
+    <rect x="42" y="18" width="316" height="40" rx="12" fill="#ff6090" opacity="0.22"/>
+    <rect x="60" y="32" width="65" height="12" rx="3" fill="#fff" opacity="0.55"/>
+    <rect x="50" y="70" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="50" y="96" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="50" y="122" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="50" y="148" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="92" y="70" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="92" y="96" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="92" y="122" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="92" y="148" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="134" y="70" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="134" y="96" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="134" y="122" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="134" y="148" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="176" y="70" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="176" y="96" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="176" y="122" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="176" y="148" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="218" y="70" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="218" y="96" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="218" y="122" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="218" y="148" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="260" y="70" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="260" y="96" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="260" y="122" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="260" y="148" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="302" y="70" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/><rect x="302" y="96" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="302" y="122" width="34" height="18" rx="4" fill="#ffab40" opacity="0.16"/><rect x="302" y="148" width="34" height="18" rx="4" fill="#ff6090" opacity="0.55"/></g>
+</svg>

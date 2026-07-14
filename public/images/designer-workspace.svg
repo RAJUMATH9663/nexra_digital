@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Design Studio">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#071b35"/>
+    <stop offset="55%" stop-color="#0b3d91"/>
+    <stop offset="100%" stop-color="#123163"/>
+  </linearGradient>
+  <linearGradient id="seam" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#8a7124"/>
+    <stop offset="50%" stop-color="#d4af37"/>
+    <stop offset="100%" stop-color="#f0dfa6"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#d4af37" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bgGrad)"/>
+<rect width="800" height="600" fill="url(#glow)"/>
+<circle cx="647" cy="459" r="3.1" fill="#f0dfa6" opacity="0.20"/>
+<circle cx="316" cy="258" r="3.1" fill="#f0dfa6" opacity="0.23"/>
+<circle cx="275" cy="148" r="2.6" fill="#f0dfa6" opacity="0.49"/>
+<circle cx="429" cy="216" r="2.8" fill="#f0dfa6" opacity="0.15"/>
+<circle cx="143" cy="550" r="1.7" fill="#f0dfa6" opacity="0.19"/>
+<circle cx="402" cy="199" r="2.6" fill="#f0dfa6" opacity="0.26"/>
+<circle cx="201" cy="138" r="2.5" fill="#f0dfa6" opacity="0.19"/>
+<circle cx="40" cy="304" r="2.1" fill="#f0dfa6" opacity="0.47"/>
+<circle cx="41" cy="480" r="2.1" fill="#f0dfa6" opacity="0.34"/>
+<circle cx="368" cy="79" r="2.4" fill="#f0dfa6" opacity="0.49"/>
+<circle cx="124" cy="560" r="2.5" fill="#f0dfa6" opacity="0.47"/>
+<circle cx="201" cy="554" r="1.8" fill="#f0dfa6" opacity="0.41"/>
+<circle cx="487" cy="455" r="3.0" fill="#f0dfa6" opacity="0.43"/>
+<circle cx="669" cy="98" r="1.6" fill="#f0dfa6" opacity="0.24"/>
+<line x1="0" y1="468" x2="800" y2="132" stroke="url(#seam)" stroke-width="2.5" opacity="0.55"/>
+<circle cx="400" cy="300" r="150" fill="url(#glass)" stroke="#f0dfa6" stroke-opacity="0.25" stroke-width="1"/>
+<g transform="translate(352.0,252.0) scale(2)" stroke="#f0dfa6" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 40l4-12L34 6l8 8-22 22z"/><path d="M28 12l8 8"/>
+</g>
+<text x="40" y="560" font-family="Montserrat, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Design Studio</text>
+<text x="40" y="584" font-family="Poppins, sans-serif" font-size="13" fill="#aebbd4">Graphic &amp; Brand Design</text>
+</svg>

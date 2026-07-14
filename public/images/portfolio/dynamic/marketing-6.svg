@@ -1,0 +1,24 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Lead Generation">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051f1b"/>
+      <stop offset="100%" stop-color="#0a3d35"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <polygon points="62,22 338,22 268,100 132,100" fill="none" stroke="#00e676" stroke-width="2.5" opacity="0.9"/>
+    <polygon points="132,100 268,100 232,172 168,172" fill="none" stroke="#00e676" stroke-width="2.5" opacity="0.8"/>
+    <polygon points="168,172 232,172 220,210 180,210" fill="#00e676" opacity="0.35"/>
+    <circle cx="88" cy="12" r="6.5" fill="#69f0ae" opacity="0.55"/><circle cx="122" cy="12" r="6.5" fill="#69f0ae" opacity="0.5800000000000001"/><circle cx="158" cy="12" r="6.5" fill="#69f0ae" opacity="0.6100000000000001"/><circle cx="194" cy="12" r="6.5" fill="#69f0ae" opacity="0.64"/><circle cx="228" cy="12" r="6.5" fill="#69f0ae" opacity="0.67"/><circle cx="262" cy="12" r="6.5" fill="#69f0ae" opacity="0.7000000000000001"/><circle cx="296" cy="12" r="6.5" fill="#69f0ae" opacity="0.73"/><circle cx="330" cy="12" r="6.5" fill="#69f0ae" opacity="0.76"/>
+    <line x1="200" y1="210" x2="200" y2="230" stroke="#69f0ae" stroke-width="3" opacity="0.65"/>
+    <polygon points="192,228 208,228 200,242" fill="#69f0ae" opacity="0.8"/></g>
+</svg>

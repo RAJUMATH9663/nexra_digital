@@ -1,0 +1,12 @@
+.pageHero {
+  background: var(--grad-hero);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.title {
+  font-size: var(--fs-display-lg);
+  color: var(--white);
+  font-weight: 800;
+  max-width: 780px;
+  margin-top: var(--space-2);
+}

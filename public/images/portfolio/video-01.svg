@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Instagram Reels">
+<defs>
+  <linearGradient id="pc7" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#071b35"/>
+    <stop offset="100%" stop-color="#0b3d91"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="260" fill="url(#pc7)"/>
+<circle cx="130" cy="39" r="1.9" fill="#ffffff" opacity="0.09"/>
+<circle cx="214" cy="95" r="1.1" fill="#ffffff" opacity="0.17"/>
+<circle cx="15" cy="113" r="1.1" fill="#ffffff" opacity="0.10"/>
+<circle cx="170" cy="215" r="1.2" fill="#ffffff" opacity="0.12"/>
+<circle cx="251" cy="246" r="1.8" fill="#ffffff" opacity="0.15"/>
+<circle cx="391" cy="12" r="2.2" fill="#ffffff" opacity="0.13"/>
+<circle cx="58" cy="31" r="1.4" fill="#ffffff" opacity="0.22"/>
+<circle cx="72" cy="151" r="1.9" fill="#ffffff" opacity="0.14"/>
+<circle cx="219" cy="16" r="1.1" fill="#ffffff" opacity="0.12"/>
+<circle cx="272" cy="111" r="1.4" fill="#ffffff" opacity="0.18"/>
+<rect x="30" y="40" width="340" height="180" rx="10" fill="none" stroke="#f0dfa6" stroke-width="2" opacity="0.5"/>
+<circle cx="200" cy="130" r="34" fill="#f0dfa6" opacity="0.16"/>
+<path d="M190 115 L190 145 L216 130 Z" fill="#f0dfa6" opacity="0.7"/>
+<rect x="40" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<rect x="120" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<rect x="200" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<rect x="280" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<line x1="0" y1="234" x2="400" y2="13" stroke="#d4af37" stroke-width="1.5" opacity="0.35"/>
+<text x="24" y="238" font-family="Montserrat, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Instagram Reels</text>
+<text x="24" y="254" font-family="Poppins, sans-serif" font-size="10" fill="#d4af37" letter-spacing="1">Video Editing</text>
+</svg>

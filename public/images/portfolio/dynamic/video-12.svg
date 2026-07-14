@@ -1,0 +1,24 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Motion Graphics">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0533"/>
+      <stop offset="100%" stop-color="#3d0a6e"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <path d="M38,100 Q120,15 200,100 Q280,185 362,100" fill="none" stroke="#e040fb" stroke-width="3.5" opacity="0.85"/>
+    <path d="M38,100 Q120,185 200,100 Q280,15 362,100" fill="none" stroke="#b388ff" stroke-width="2.5" opacity="0.6"/>
+    <circle cx="38" cy="100" r="9" fill="#e040fb" opacity="0.9"/><circle cx="200" cy="100" r="9" fill="#e040fb" opacity="0.9"/><circle cx="362" cy="100" r="9" fill="#e040fb" opacity="0.9"/>
+    <circle cx="95" cy="32" r="6" fill="#b388ff" opacity="0.75"/><circle cx="165" cy="168" r="6" fill="#b388ff" opacity="0.75"/><circle cx="255" cy="32" r="6" fill="#b388ff" opacity="0.75"/><circle cx="315" cy="168" r="6" fill="#b388ff" opacity="0.75"/>
+    <line x1="50"  y1="55" x2="135" y2="55" stroke="#e040fb" stroke-width="2" opacity="0.35" stroke-dasharray="7 5"/>
+    <line x1="265" y1="145" x2="350" y2="145" stroke="#b388ff" stroke-width="2" opacity="0.35" stroke-dasharray="7 5"/></g>
+</svg>

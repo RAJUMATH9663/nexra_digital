@@ -1,0 +1,42 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Domain &amp; Hosting Setup">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    
+      <rect x="108" y="22" width="168" height="28" rx="7" fill="none" stroke="#448aff" stroke-width="2.2" opacity="0.9"/>
+      <circle cx="130" cy="36" r="7" fill="#82b1ff" opacity="0.65"/>
+      <rect x="144" y="30" width="96" height="5" rx="2" fill="#448aff" opacity="0.35"/>
+      <rect x="144" y="40" width="70" height="5" rx="2" fill="#82b1ff" opacity="0.22"/>
+    
+      <rect x="108" y="60" width="168" height="28" rx="7" fill="none" stroke="#448aff" stroke-width="2.2" opacity="0.8"/>
+      <circle cx="130" cy="74" r="7" fill="#82b1ff" opacity="0.7000000000000001"/>
+      <rect x="144" y="68" width="96" height="5" rx="2" fill="#448aff" opacity="0.35"/>
+      <rect x="144" y="78" width="70" height="5" rx="2" fill="#82b1ff" opacity="0.22"/>
+    
+      <rect x="108" y="98" width="168" height="28" rx="7" fill="none" stroke="#448aff" stroke-width="2.2" opacity="0.7"/>
+      <circle cx="130" cy="112" r="7" fill="#82b1ff" opacity="0.75"/>
+      <rect x="144" y="106" width="96" height="5" rx="2" fill="#448aff" opacity="0.35"/>
+      <rect x="144" y="116" width="70" height="5" rx="2" fill="#82b1ff" opacity="0.22"/>
+    
+      <rect x="108" y="136" width="168" height="28" rx="7" fill="none" stroke="#448aff" stroke-width="2.2" opacity="0.6"/>
+      <circle cx="130" cy="150" r="7" fill="#82b1ff" opacity="0.8"/>
+      <rect x="144" y="144" width="96" height="5" rx="2" fill="#448aff" opacity="0.35"/>
+      <rect x="144" y="154" width="70" height="5" rx="2" fill="#82b1ff" opacity="0.22"/>
+    
+    <circle cx="318" cy="90" r="42" fill="none" stroke="#82b1ff" stroke-width="2.2" opacity="0.6"/>
+    <ellipse cx="318" cy="90" rx="19" ry="42" fill="none" stroke="#82b1ff" stroke-width="1.3" opacity="0.42"/>
+    <line x1="276" y1="90" x2="360" y2="90" stroke="#82b1ff" stroke-width="1.3" opacity="0.35"/></g>
+</svg>

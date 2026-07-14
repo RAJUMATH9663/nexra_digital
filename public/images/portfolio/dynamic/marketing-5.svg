@@ -1,0 +1,26 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Email Marketing">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051f1b"/>
+      <stop offset="100%" stop-color="#0a3d35"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="45" y="45" width="310" height="162" rx="12" fill="none" stroke="#00e676" stroke-width="2.5" opacity="0.9"/>
+    <polygon points="45,45 200,138 355,45" fill="none" stroke="#00e676" stroke-width="2" opacity="0.75"/>
+    <polygon points="45,45 98,108 45,155" fill="#00e676" opacity="0.1"/>
+    <polygon points="355,45 302,108 355,155" fill="#00e676" opacity="0.1"/>
+    <rect x="78" y="155" width="244" height="12" rx="3" fill="#00e676" opacity="0.35"/>
+    <rect x="78" y="175" width="200" height="8" rx="2" fill="#69f0ae" opacity="0.24"/>
+    <circle cx="38" cy="28" r="22" fill="#00e676" opacity="0.22"/>
+    <text x="29" y="36" font-family="sans-serif" font-size="20" fill="#00e676" opacity="0.9">@</text></g>
+</svg>

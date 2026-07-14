@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Digital Marketing">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#071b35"/>
+    <stop offset="55%" stop-color="#0b3d91"/>
+    <stop offset="100%" stop-color="#123163"/>
+  </linearGradient>
+  <linearGradient id="seam" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#8a7124"/>
+    <stop offset="50%" stop-color="#d4af37"/>
+    <stop offset="100%" stop-color="#f0dfa6"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#d4af37" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bgGrad)"/>
+<rect width="800" height="600" fill="url(#glow)"/>
+<circle cx="265" cy="372" r="1.3" fill="#f0dfa6" opacity="0.54"/>
+<circle cx="646" cy="291" r="1.6" fill="#f0dfa6" opacity="0.41"/>
+<circle cx="470" cy="297" r="2.0" fill="#f0dfa6" opacity="0.39"/>
+<circle cx="332" cy="353" r="1.7" fill="#f0dfa6" opacity="0.54"/>
+<circle cx="535" cy="343" r="3.2" fill="#f0dfa6" opacity="0.49"/>
+<circle cx="85" cy="479" r="1.6" fill="#f0dfa6" opacity="0.31"/>
+<circle cx="441" cy="411" r="2.1" fill="#f0dfa6" opacity="0.50"/>
+<circle cx="746" cy="25" r="1.8" fill="#f0dfa6" opacity="0.35"/>
+<circle cx="25" cy="218" r="1.4" fill="#f0dfa6" opacity="0.42"/>
+<circle cx="532" cy="139" r="2.7" fill="#f0dfa6" opacity="0.44"/>
+<circle cx="420" cy="374" r="3.1" fill="#f0dfa6" opacity="0.34"/>
+<circle cx="638" cy="332" r="1.4" fill="#f0dfa6" opacity="0.53"/>
+<circle cx="713" cy="244" r="2.4" fill="#f0dfa6" opacity="0.49"/>
+<circle cx="628" cy="133" r="2.1" fill="#f0dfa6" opacity="0.24"/>
+<line x1="0" y1="468" x2="800" y2="132" stroke="url(#seam)" stroke-width="2.5" opacity="0.55"/>
+<circle cx="400" cy="300" r="150" fill="url(#glass)" stroke="#f0dfa6" stroke-opacity="0.25" stroke-width="1"/>
+<g transform="translate(352.0,252.0) scale(2)" stroke="#f0dfa6" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 26l14-6v12z"/><path d="M20 20l16-8v28l-16-8"/>
+</g>
+<text x="40" y="560" font-family="Montserrat, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Digital Marketing</text>
+<text x="40" y="584" font-family="Poppins, sans-serif" font-size="13" fill="#aebbd4">Campaigns That Compound</text>
+</svg>

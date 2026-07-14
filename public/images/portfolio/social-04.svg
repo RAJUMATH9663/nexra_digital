@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Story Design">
+<defs>
+  <linearGradient id="pc269" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#071b35"/>
+    <stop offset="100%" stop-color="#1a56c4"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="260" fill="url(#pc269)"/>
+<circle cx="16" cy="230" r="2.1" fill="#ffffff" opacity="0.18"/>
+<circle cx="389" cy="49" r="1.4" fill="#ffffff" opacity="0.17"/>
+<circle cx="26" cy="46" r="1.9" fill="#ffffff" opacity="0.24"/>
+<circle cx="157" cy="1" r="1.1" fill="#ffffff" opacity="0.16"/>
+<circle cx="375" cy="29" r="1.4" fill="#ffffff" opacity="0.12"/>
+<circle cx="334" cy="203" r="1.3" fill="#ffffff" opacity="0.15"/>
+<circle cx="327" cy="127" r="1.7" fill="#ffffff" opacity="0.23"/>
+<circle cx="339" cy="28" r="1.3" fill="#ffffff" opacity="0.22"/>
+<circle cx="84" cy="181" r="1.9" fill="#ffffff" opacity="0.23"/>
+<circle cx="325" cy="135" r="2.1" fill="#ffffff" opacity="0.11"/>
+<rect x="150" y="30" width="100" height="160" rx="16" fill="none" stroke="#f0dfa6" stroke-width="2.5" opacity="0.55"/>
+<rect x="165" y="55" width="70" height="24" rx="6" fill="#f0dfa6" opacity="0.16"/>
+<rect x="165" y="95" width="70" height="24" rx="6" fill="#f0dfa6" opacity="0.16"/>
+<rect x="165" y="135" width="70" height="24" rx="6" fill="#f0dfa6" opacity="0.16"/>
+<circle cx="90" cy="120" r="26" fill="#f0dfa6" opacity="0.12"/>
+<circle cx="310" cy="120" r="26" fill="#f0dfa6" opacity="0.12"/>
+<line x1="0" y1="234" x2="400" y2="13" stroke="#d4af37" stroke-width="1.5" opacity="0.35"/>
+<text x="24" y="238" font-family="Montserrat, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Story Design</text>
+<text x="24" y="254" font-family="Poppins, sans-serif" font-size="10" fill="#d4af37" letter-spacing="1">Social Media Management</text>
+</svg>

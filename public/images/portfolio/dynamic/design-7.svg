@@ -1,0 +1,25 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Business Cards">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#031520"/>
+      <stop offset="100%" stop-color="#073d5e"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="68" y="108" width="224" height="112" rx="12" fill="none" stroke="#80deea" stroke-width="2" opacity="0.55" transform="rotate(-7,180,164)"/>
+    <rect x="68" y="96" width="224" height="112" rx="12" fill="#00e5ff" opacity="0.1" transform="rotate(-3,180,152)"/>
+    <rect x="68" y="84" width="224" height="112" rx="12" fill="none" stroke="#00e5ff" stroke-width="2.5" opacity="0.9"/>
+    <circle cx="108" cy="115" r="20" fill="#00e5ff" opacity="0.35"/>
+    <rect x="140" y="104" width="126" height="12" rx="3" fill="#00e5ff" opacity="0.4"/>
+    <rect x="140" y="124" width="95" height="8" rx="2" fill="#80deea" opacity="0.28"/>
+    <rect x="78" y="162" width="208" height="6" rx="2" fill="#80deea" opacity="0.22"/></g>
+</svg>

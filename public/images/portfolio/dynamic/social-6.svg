@@ -1,0 +1,24 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Hashtag Research">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <circle cx="162" cy="98" r="78" fill="none" stroke="#ff6090" stroke-width="3" opacity="0.9"/>
+    <line x1="222" y1="158" x2="325" y2="210" stroke="#ff6090" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+    <line x1="138" y1="68" x2="138" y2="128" stroke="#ffab40" stroke-width="4" opacity="0.8"/>
+    <line x1="162" y1="68" x2="162" y2="128" stroke="#ffab40" stroke-width="4" opacity="0.8"/>
+    <line x1="126" y1="84" x2="176" y2="84" stroke="#ffab40" stroke-width="4" opacity="0.8"/>
+    <line x1="126" y1="112" x2="176" y2="112" stroke="#ffab40" stroke-width="4" opacity="0.8"/></g>
+</svg>

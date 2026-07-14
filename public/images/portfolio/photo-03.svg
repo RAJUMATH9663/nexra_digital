@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Corporate Shoots">
+<defs>
+  <linearGradient id="pc128" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#123163"/>
+    <stop offset="100%" stop-color="#1a56c4"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="260" fill="url(#pc128)"/>
+<circle cx="376" cy="62" r="1.7" fill="#ffffff" opacity="0.10"/>
+<circle cx="12" cy="40" r="1.9" fill="#ffffff" opacity="0.12"/>
+<circle cx="267" cy="185" r="1.8" fill="#ffffff" opacity="0.09"/>
+<circle cx="45" cy="76" r="1.5" fill="#ffffff" opacity="0.23"/>
+<circle cx="287" cy="115" r="1.2" fill="#ffffff" opacity="0.15"/>
+<circle cx="367" cy="219" r="1.5" fill="#ffffff" opacity="0.13"/>
+<circle cx="139" cy="176" r="2.2" fill="#ffffff" opacity="0.11"/>
+<circle cx="226" cy="1" r="1.8" fill="#ffffff" opacity="0.09"/>
+<circle cx="230" cy="69" r="2.1" fill="#ffffff" opacity="0.14"/>
+<circle cx="295" cy="148" r="1.5" fill="#ffffff" opacity="0.22"/>
+<circle cx="306" cy="88" r="50" fill="#f0dfa6" opacity="0.1"/>
+<circle cx="112" cy="63" r="36" fill="#f0dfa6" opacity="0.1"/>
+<circle cx="233" cy="90" r="57" fill="#f0dfa6" opacity="0.1"/>
+<rect x="120" y="90" width="160" height="110" rx="8" fill="none" stroke="#f0dfa6" stroke-width="2.5" opacity="0.55"/>
+<circle cx="200" cy="145" r="34" fill="none" stroke="#f0dfa6" stroke-width="3" opacity="0.6"/>
+<circle cx="200" cy="145" r="13" fill="#f0dfa6" opacity="0.5"/>
+<line x1="0" y1="234" x2="400" y2="13" stroke="#d4af37" stroke-width="1.5" opacity="0.35"/>
+<text x="24" y="238" font-family="Montserrat, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Corporate Shoots</text>
+<text x="24" y="254" font-family="Poppins, sans-serif" font-size="10" fill="#d4af37" letter-spacing="1">Photography &amp; Videography</text>
+</svg>

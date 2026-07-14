@@ -1,0 +1,28 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Food Photography">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b3a5c"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <circle cx="200" cy="95" r="78" fill="none" stroke="#64b5f6" stroke-width="2.5" opacity="0.85"/>
+    <circle cx="200" cy="95" r="62" fill="#64b5f6" opacity="0.08"/>
+    <line x1="92" y1="35" x2="92" y2="155" stroke="#90caf9" stroke-width="4" opacity="0.75"/>
+    <line x1="82"  y1="35" x2="82"  y2="75" stroke="#90caf9" stroke-width="2.5" opacity="0.55"/>
+    <line x1="102" y1="35" x2="102" y2="75" stroke="#90caf9" stroke-width="2.5" opacity="0.55"/>
+    <line x1="308" y1="35" x2="308" y2="155" stroke="#64b5f6" stroke-width="4" opacity="0.7"/>
+    <path d="M308,35 Q326,52 308,98" fill="#64b5f6" opacity="0.22"/>
+    <path d="M172,28 Q178,14 172,0" fill="none" stroke="#90caf9" stroke-width="2" opacity="0.55"/>
+    <path d="M200,22 Q206,8 200,0"  fill="none" stroke="#90caf9" stroke-width="2" opacity="0.55"/>
+    <path d="M228,28 Q234,14 228,0" fill="none" stroke="#90caf9" stroke-width="2" opacity="0.55"/></g>
+</svg>

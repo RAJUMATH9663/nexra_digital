@@ -1,0 +1,23 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Reel Management">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="158" y="8" width="84" height="145" rx="16" fill="none" stroke="#ff6090" stroke-width="2.5" opacity="0.9"/>
+    <rect x="165" y="16" width="70" height="129" rx="10" fill="#ff6090" opacity="0.1"/>
+    <circle cx="200" cy="80" r="28" fill="#ff6090" opacity="0.22"/>
+    <polygon points="192,68 192,93 215,80" fill="#ff6090" opacity="1"/>
+    <text x="55" y="185" font-family="sans-serif" font-size="30" opacity="0.82">📊</text><text x="135" y="185" font-family="sans-serif" font-size="30" opacity="0.82">🗓</text><text x="215" y="185" font-family="sans-serif" font-size="30" opacity="0.82">✏️</text><text x="295" y="185" font-family="sans-serif" font-size="30" opacity="0.82">🔔</text></g>
+</svg>

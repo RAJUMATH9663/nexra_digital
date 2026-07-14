@@ -1,0 +1,23 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Brand Promotion">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051f1b"/>
+      <stop offset="100%" stop-color="#0a3d35"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <line x1="252.0" y1="90.0" x2="281.1" y2="111.7" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="245.0" y1="116.0" x2="259.4" y2="149.4" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="226.0" y1="135.0" x2="221.7" y2="171.1" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="200.0" y1="142.0" x2="178.3" y2="171.1" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="174.0" y1="135.0" x2="140.6" y2="149.4" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="155.0" y1="116.0" x2="118.9" y2="111.7" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="148.0" y1="90.0" x2="118.9" y2="68.3" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="155.0" y1="64.0" x2="140.6" y2="30.6" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="174.0" y1="45.0" x2="178.3" y2="8.9" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="200.0" y1="38.0" x2="221.7" y2="8.9" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="226.0" y1="45.0" x2="259.4" y2="30.6" stroke="#00e676" stroke-width="2.5" opacity="0.65"/><line x1="245.0" y1="64.0" x2="281.1" y2="68.3" stroke="#00e676" stroke-width="2.5" opacity="0.65"/>
+    <circle cx="200" cy="90" r="46" fill="#00e676" opacity="0.2"/>
+    <circle cx="200" cy="90" r="28" fill="#00e676" opacity="0.3"/>
+    <path d="M242,78 L298,56 L298,124 L242,102 Z" fill="none" stroke="#69f0ae" stroke-width="2.5" opacity="0.8"/>
+    <rect x="222" y="78" width="24" height="24" rx="5" fill="#69f0ae" opacity="0.28"/></g>
+</svg>

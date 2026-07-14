@@ -1,0 +1,23 @@
+{
+  "name": "nexra-digital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NEXRA DIGITAL — Turning Vision Into Digital Reality. Premium creative agency website.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "nodemailer": "^9.0.3",
+    "ogl": "^1.0.11",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5"
+  }
+}

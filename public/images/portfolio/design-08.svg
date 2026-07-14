@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Menu Cards">
+<defs>
+  <linearGradient id="pc231" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0d2647"/>
+    <stop offset="100%" stop-color="#8a7124"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="260" fill="url(#pc231)"/>
+<circle cx="342" cy="250" r="2.2" fill="#ffffff" opacity="0.23"/>
+<circle cx="399" cy="196" r="2.3" fill="#ffffff" opacity="0.12"/>
+<circle cx="311" cy="148" r="1.4" fill="#ffffff" opacity="0.16"/>
+<circle cx="131" cy="246" r="2.1" fill="#ffffff" opacity="0.13"/>
+<circle cx="263" cy="32" r="1.2" fill="#ffffff" opacity="0.23"/>
+<circle cx="346" cy="90" r="1.4" fill="#ffffff" opacity="0.14"/>
+<circle cx="7" cy="209" r="2.3" fill="#ffffff" opacity="0.20"/>
+<circle cx="25" cy="117" r="2.4" fill="#ffffff" opacity="0.09"/>
+<circle cx="273" cy="138" r="2.1" fill="#ffffff" opacity="0.20"/>
+<circle cx="138" cy="94" r="1.3" fill="#ffffff" opacity="0.10"/>
+<path d="M110 70 L150 100 L135 150 L85 150 L70 100 Z" fill="#f0dfa6" opacity="0.09"/>
+<path d="M200 70 L240 100 L225 150 L175 150 L160 100 Z" fill="#f0dfa6" opacity="0.15"/>
+<path d="M290 70 L330 100 L315 150 L265 150 L250 100 Z" fill="#f0dfa6" opacity="0.21"/>
+<rect x="40" y="180" width="320" height="8" rx="4" fill="#f0dfa6" opacity="0.3"/>
+<line x1="0" y1="234" x2="400" y2="13" stroke="#d4af37" stroke-width="1.5" opacity="0.35"/>
+<text x="24" y="238" font-family="Montserrat, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Menu Cards</text>
+<text x="24" y="254" font-family="Poppins, sans-serif" font-size="10" fill="#d4af37" letter-spacing="1">Graphic Design</text>
+</svg>

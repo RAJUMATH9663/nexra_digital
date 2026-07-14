@@ -1,0 +1,25 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Drone Videography">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b3a5c"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="162" y="78" width="76" height="48" rx="12" fill="none" stroke="#64b5f6" stroke-width="2.5" opacity="0.9"/>
+    <line x1="162" y1="88" x2="88" y2="56"  stroke="#64b5f6" stroke-width="3" opacity="0.8"/>
+    <line x1="238" y1="88" x2="312" y2="56" stroke="#64b5f6" stroke-width="3" opacity="0.8"/>
+    <line x1="162" y1="118" x2="88" y2="150" stroke="#64b5f6" stroke-width="3" opacity="0.8"/>
+    <line x1="238" y1="118" x2="312" y2="150" stroke="#64b5f6" stroke-width="3" opacity="0.8"/>
+    <ellipse cx="88" cy="56" rx="30" ry="9" fill="none" stroke="#90caf9" stroke-width="2.5" opacity="0.7"/><ellipse cx="312" cy="56" rx="30" ry="9" fill="none" stroke="#90caf9" stroke-width="2.5" opacity="0.7"/><ellipse cx="88" cy="150" rx="30" ry="9" fill="none" stroke="#90caf9" stroke-width="2.5" opacity="0.7"/><ellipse cx="312" cy="150" rx="30" ry="9" fill="none" stroke="#90caf9" stroke-width="2.5" opacity="0.7"/>
+    <circle cx="200" cy="126" r="13" fill="#90caf9" opacity="0.5"/></g>
+</svg>

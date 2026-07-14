@@ -1,0 +1,30 @@
+.fab {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1ebe57, #128c42);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 30px -8px rgba(18, 140, 66, 0.6);
+  z-index: 300;
+  animation: pulseWa 3.2s ease-in-out infinite;
+  transition: transform 0.3s var(--ease);
+}
+
+.fab:hover {
+  transform: scale(1.08);
+}
+
+@keyframes pulseWa {
+  0%, 100% { box-shadow: 0 12px 30px -8px rgba(18, 140, 66, 0.6); }
+  50% { box-shadow: 0 12px 34px -6px rgba(18, 140, 66, 0.9); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fab { animation: none; }
+}

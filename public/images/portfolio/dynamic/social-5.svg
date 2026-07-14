@@ -1,0 +1,26 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Caption Writing">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <path d="M42,30 Q42,8 65,8 L335,8 Q358,8 358,30 L358,138 Q358,160 335,160 L140,160 L96,198 L106,160 L65,160 Q42,160 42,138 Z"
+      fill="none" stroke="#ff6090" stroke-width="2.5" opacity="0.9"/>
+    <rect x="58" y="26" width="284" height="126" rx="7" fill="#ff6090" opacity="0.07"/>
+    <rect x="65" y="46" width="270" height="12" rx="3" fill="#ff6090" opacity="0.4"/>
+    <rect x="65" y="68" width="230" height="10" rx="3" fill="#ffab40" opacity="0.28"/>
+    <rect x="65" y="88" width="252" height="10" rx="3" fill="#ffab40" opacity="0.24"/>
+    <rect x="65" y="108" width="180" height="10" rx="3" fill="#ffab40" opacity="0.22"/>
+    <text x="308" y="148" font-family="sans-serif" font-size="24" fill="#ff6090" opacity="0.7">#</text></g>
+</svg>

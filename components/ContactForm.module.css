@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.field label {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.field input,
+.field select,
+.field textarea {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem;
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  transition: border-color 0.3s var(--ease), background 0.3s var(--ease);
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: rgba(255,255,255,0.35);
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--gold);
+  background: rgba(255, 255, 255, 0.06);
+  outline: none;
+}
+
+.field select option {
+  background: var(--navy-2);
+  color: var(--white);
+}
+
+.error {
+  color: #ff8a8a;
+  font-size: 0.88rem;
+}
+
+.success {
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.success h3 {
+  color: var(--gold);
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.success p {
+  color: var(--text-muted);
+  margin-bottom: var(--space-3);
+}
+
+@media (max-width: 560px) {
+  .row { grid-template-columns: 1fr; }
+}

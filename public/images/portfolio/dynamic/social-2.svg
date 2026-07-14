@@ -1,0 +1,40 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Post Scheduling">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <circle cx="148" cy="95" r="74" fill="none" stroke="#ff6090" stroke-width="2.5" opacity="0.9"/>
+    <circle cx="148" cy="95" r="6" fill="#ff6090" opacity="0.9"/>
+    <line x1="148" y1="95" x2="148" y2="38" stroke="#ff6090" stroke-width="3.5" opacity="0.9"/>
+    <line x1="148" y1="95" x2="192" y2="118" stroke="#ffab40" stroke-width="3" opacity="0.8"/>
+    <circle cx="148.0" cy="29.0" r="5" fill="#ff6090" opacity="0.8"/><circle cx="181.0" cy="37.8" r="2.5" fill="#ff6090" opacity="0.45"/><circle cx="205.2" cy="62.0" r="2.5" fill="#ff6090" opacity="0.45"/><circle cx="214.0" cy="95.0" r="5" fill="#ff6090" opacity="0.8"/><circle cx="205.2" cy="128.0" r="2.5" fill="#ff6090" opacity="0.45"/><circle cx="181.0" cy="152.2" r="2.5" fill="#ff6090" opacity="0.45"/><circle cx="148.0" cy="161.0" r="5" fill="#ff6090" opacity="0.8"/><circle cx="115.0" cy="152.2" r="2.5" fill="#ff6090" opacity="0.45"/><circle cx="90.8" cy="128.0" r="2.5" fill="#ff6090" opacity="0.45"/><circle cx="82.0" cy="95.0" r="5" fill="#ff6090" opacity="0.8"/><circle cx="90.8" cy="62.0" r="2.5" fill="#ff6090" opacity="0.45"/><circle cx="115.0" cy="37.8" r="2.5" fill="#ff6090" opacity="0.45"/>
+    
+      <rect x="248" y="50" width="108" height="24" rx="6" fill="#ff6090" opacity="0.16"/>
+      <rect x="256" y="54" width="60" height="12" rx="2" fill="#ff6090" opacity="0.45"/>
+      <circle cx="336" cy="62" r="5.5" fill="#ffab40" opacity="0.55"/>
+    
+      <rect x="248" y="82" width="108" height="24" rx="6" fill="#ff6090" opacity="0.16"/>
+      <rect x="256" y="86" width="60" height="12" rx="2" fill="#ff6090" opacity="0.45"/>
+      <circle cx="336" cy="94" r="5.5" fill="#ffab40" opacity="0.55"/>
+    
+      <rect x="248" y="114" width="108" height="24" rx="6" fill="#ff6090" opacity="0.16"/>
+      <rect x="256" y="118" width="60" height="12" rx="2" fill="#ff6090" opacity="0.45"/>
+      <circle cx="336" cy="126" r="5.5" fill="#ffab40" opacity="0.55"/>
+    
+      <rect x="248" y="146" width="108" height="24" rx="6" fill="#ff6090" opacity="0.16"/>
+      <rect x="256" y="150" width="60" height="12" rx="2" fill="#ff6090" opacity="0.45"/>
+      <circle cx="336" cy="158" r="5.5" fill="#ffab40" opacity="0.55"/>
+    </g>
+</svg>

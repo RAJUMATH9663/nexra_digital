@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="YouTube Videos">
+<defs>
+  <linearGradient id="pc15" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0d2647"/>
+    <stop offset="100%" stop-color="#8a7124"/>
+  </linearGradient>
+</defs>
+<rect width="400" height="260" fill="url(#pc15)"/>
+<circle cx="386" cy="3" r="2.0" fill="#ffffff" opacity="0.11"/>
+<circle cx="395" cy="4" r="2.2" fill="#ffffff" opacity="0.20"/>
+<circle cx="343" cy="260" r="1.3" fill="#ffffff" opacity="0.14"/>
+<circle cx="283" cy="73" r="1.4" fill="#ffffff" opacity="0.12"/>
+<circle cx="343" cy="227" r="2.1" fill="#ffffff" opacity="0.12"/>
+<circle cx="370" cy="133" r="1.3" fill="#ffffff" opacity="0.16"/>
+<circle cx="168" cy="21" r="1.8" fill="#ffffff" opacity="0.14"/>
+<circle cx="228" cy="242" r="1.9" fill="#ffffff" opacity="0.15"/>
+<circle cx="345" cy="259" r="1.7" fill="#ffffff" opacity="0.24"/>
+<circle cx="8" cy="36" r="1.2" fill="#ffffff" opacity="0.24"/>
+<rect x="30" y="40" width="340" height="180" rx="10" fill="none" stroke="#f0dfa6" stroke-width="2" opacity="0.5"/>
+<circle cx="200" cy="130" r="34" fill="#f0dfa6" opacity="0.16"/>
+<path d="M190 115 L190 145 L216 130 Z" fill="#f0dfa6" opacity="0.7"/>
+<rect x="40" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<rect x="120" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<rect x="200" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<rect x="280" y="200" width="60" height="10" rx="3" fill="#f0dfa6" opacity="0.25"/>
+<line x1="0" y1="234" x2="400" y2="13" stroke="#d4af37" stroke-width="1.5" opacity="0.35"/>
+<text x="24" y="238" font-family="Montserrat, sans-serif" font-size="15" font-weight="700" fill="#ffffff">YouTube Videos</text>
+<text x="24" y="254" font-family="Poppins, sans-serif" font-size="10" fill="#d4af37" letter-spacing="1">Video Editing</text>
+</svg>

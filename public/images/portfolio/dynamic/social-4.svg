@@ -1,0 +1,32 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Story Design">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    
+      <circle cx="92" cy="80" r="56" fill="none" stroke="#ff6090" stroke-width="2.5" opacity="0.9"
+        stroke-dasharray="351.85837720205683" stroke-dashoffset="0"/>
+      <circle cx="92" cy="80" r="44" fill="#ff6090" opacity="0.1"/>
+    
+      <circle cx="200" cy="80" r="56" fill="none" stroke="#ff6090" stroke-width="3.5" opacity="0.78"
+        stroke-dasharray="351.85837720205683" stroke-dashoffset="22"/>
+      <circle cx="200" cy="80" r="44" fill="#ff6090" opacity="0.08"/>
+    
+      <circle cx="308" cy="80" r="56" fill="none" stroke="#ff6090" stroke-width="2.5" opacity="0.66"
+        stroke-dasharray="351.85837720205683" stroke-dashoffset="44"/>
+      <circle cx="308" cy="80" r="44" fill="#ff6090" opacity="0.060000000000000005"/>
+    
+    <rect x="148" y="148" width="104" height="62" rx="10" fill="none" stroke="#ffab40" stroke-width="2" opacity="0.75"/></g>
+</svg>

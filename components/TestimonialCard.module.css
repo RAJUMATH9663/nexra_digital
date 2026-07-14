@@ -1,0 +1,64 @@
+.card {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  height: 100%;
+  transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-soft);
+}
+
+.quoteIcon {
+  color: var(--gold);
+  opacity: 0.7;
+}
+
+.quote {
+  color: var(--text-primary);
+  font-size: 0.98rem;
+  line-height: 1.7;
+  flex-grow: 1;
+}
+
+.stars {
+  display: flex;
+  gap: 0.15rem;
+  color: var(--gold);
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.4rem;
+  padding-top: var(--space-2);
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--grad-gold);
+  color: var(--navy);
+  font-family: var(--font-display);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.role {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}

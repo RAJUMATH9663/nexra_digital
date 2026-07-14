@@ -1,0 +1,24 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Fashion Photography">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b3a5c"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <path d="M182,14 L158,58 L128,178 L272,178 L242,58 Z" fill="none" stroke="#64b5f6" stroke-width="2.5" opacity="0.9"/>
+    <path d="M175,14 Q200,30 225,14" fill="none" stroke="#64b5f6" stroke-width="2.5" opacity="0.8"/>
+    <path d="M172,2 Q200,−10 228,2 L244,14 L156,14 Z" fill="none" stroke="#90caf9" stroke-width="2" opacity="0.75"/>
+    <circle cx="72" cy="42" r="5" fill="#90caf9" opacity="0.65"/><circle cx="320" cy="62" r="5" fill="#90caf9" opacity="0.65"/><circle cx="75" cy="168" r="5" fill="#90caf9" opacity="0.65"/><circle cx="322" cy="152" r="5" fill="#90caf9" opacity="0.65"/>
+    <circle cx="330" cy="32" r="22" fill="none" stroke="#64b5f6" stroke-width="2" opacity="0.65"/>
+    <circle cx="330" cy="32" r="11" fill="#64b5f6" opacity="0.22"/></g>
+</svg>

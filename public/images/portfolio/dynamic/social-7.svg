@@ -1,0 +1,37 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Community Management">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    
+      <circle cx="200" cy="72" r="26" fill="#ff6090" opacity="0.32"/>
+      <circle cx="200" cy="72" r="26" fill="none" stroke="#ff6090" stroke-width="2" opacity="0.9"/>
+    
+      <circle cx="88" cy="142" r="18" fill="#ff6090" opacity="0.2"/>
+      <circle cx="88" cy="142" r="18" fill="none" stroke="#ffab40" stroke-width="2" opacity="0.65"/>
+    
+      <circle cx="312" cy="142" r="18" fill="#ff6090" opacity="0.2"/>
+      <circle cx="312" cy="142" r="18" fill="none" stroke="#ffab40" stroke-width="2" opacity="0.65"/>
+    
+      <circle cx="112" cy="28" r="18" fill="#ff6090" opacity="0.2"/>
+      <circle cx="112" cy="28" r="18" fill="none" stroke="#ffab40" stroke-width="2" opacity="0.65"/>
+    
+      <circle cx="288" cy="28" r="18" fill="#ff6090" opacity="0.2"/>
+      <circle cx="288" cy="28" r="18" fill="none" stroke="#ffab40" stroke-width="2" opacity="0.65"/>
+    
+    <line x1="200" y1="72" x2="88" y2="142" stroke="#ffab40" stroke-width="1.5" opacity="0.38"/><line x1="200" y1="72" x2="312" y2="142" stroke="#ffab40" stroke-width="1.5" opacity="0.38"/><line x1="200" y1="72" x2="112" y2="28" stroke="#ffab40" stroke-width="1.5" opacity="0.38"/><line x1="200" y1="72" x2="288" y2="28" stroke="#ffab40" stroke-width="1.5" opacity="0.38"/><line x1="88" y1="142" x2="112" y2="28" stroke="#ffab40" stroke-width="1.5" opacity="0.38"/><line x1="312" y1="142" x2="288" y2="28" stroke="#ffab40" stroke-width="1.5" opacity="0.38"/>
+    <path d="M35,172 Q35,158 47,158 L148,158 Q160,158 160,172 L160,204 Q160,218 148,218 L82,218 L65,236 L70,218 L47,218 Q35,218 35,204 Z"
+      fill="none" stroke="#ff6090" stroke-width="1.8" opacity="0.55"/></g>
+</svg>

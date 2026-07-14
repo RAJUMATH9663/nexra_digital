@@ -1,0 +1,24 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Monthly Analytics Reports">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="50" y="138" width="38" height="62" rx="5" fill="#ff6090" opacity="0.38"/><rect x="96" y="105" width="38" height="95" rx="5" fill="#ff6090" opacity="0.42"/><rect x="142" y="72" width="38" height="128" rx="5" fill="#ff6090" opacity="0.46"/><rect x="188" y="48" width="38" height="152" rx="5" fill="#ff6090" opacity="0.5"/><rect x="234" y="62" width="38" height="138" rx="5" fill="#ff6090" opacity="0.54"/><rect x="280" y="32" width="38" height="168" rx="5" fill="#ff6090" opacity="0.5800000000000001"/><rect x="326" y="85" width="38" height="115" rx="5" fill="#ff6090" opacity="0.62"/>
+    <polyline points="69,132 115,100 161,76 207,52 253,66 299,36 345,94"
+      fill="none" stroke="#ffab40" stroke-width="3" opacity="0.9"/>
+    <circle cx="69" cy="132" r="6" fill="#ffab40" opacity="0.85"/><circle cx="115" cy="100" r="6" fill="#ffab40" opacity="0.85"/><circle cx="161" cy="76" r="6" fill="#ffab40" opacity="0.85"/><circle cx="207" cy="52" r="6" fill="#ffab40" opacity="0.85"/><circle cx="253" cy="66" r="6" fill="#ffab40" opacity="0.85"/><circle cx="299" cy="36" r="6" fill="#ffab40" opacity="0.85"/>
+    <line x1="40" y1="200" x2="40" y2="25" stroke="#ff6090" stroke-width="1.5" opacity="0.3"/>
+    <line x1="40" y1="200" x2="370" y2="200" stroke="#ff6090" stroke-width="1.5" opacity="0.3"/></g>
+</svg>

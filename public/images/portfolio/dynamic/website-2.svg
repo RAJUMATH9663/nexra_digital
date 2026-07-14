@@ -1,0 +1,33 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Portfolio Websites">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a"/>
+      <stop offset="100%" stop-color="#0d2137"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="35" y="14" width="330" height="170" rx="13" fill="none" stroke="#448aff" stroke-width="2.5" opacity="0.9"/>
+    <rect x="35" y="14" width="330" height="32" rx="13" fill="#448aff" opacity="0.2"/>
+    
+      <rect x="44" y="54" width="96" height="76" rx="6" fill="#448aff" opacity="0.18"/>
+    
+      <rect x="148" y="54" width="72" height="38" rx="6" fill="#448aff" opacity="0.22"/>
+    
+      <rect x="228" y="54" width="132" height="76" rx="6" fill="#448aff" opacity="0.26"/>
+    
+      <rect x="44" y="138" width="140" height="58" rx="6" fill="#448aff" opacity="0.3"/>
+    
+      <rect x="192" y="100" width="178" height="76" rx="6" fill="#448aff" opacity="0.33999999999999997"/>
+    
+      <rect x="148" y="100" width="72" height="32" rx="6" fill="#448aff" opacity="0.38"/>
+    </g>
+</svg>

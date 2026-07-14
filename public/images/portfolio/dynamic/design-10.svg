@@ -1,0 +1,25 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Brand Identity Design">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#031520"/>
+      <stop offset="100%" stop-color="#073d5e"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="44" y="18" width="44" height="44" rx="7" fill="#ff6090" opacity="0.78"/><rect x="98" y="18" width="44" height="44" rx="7" fill="#ffab40" opacity="0.78"/><rect x="152" y="18" width="44" height="44" rx="7" fill="#00e5ff" opacity="0.78"/><rect x="206" y="18" width="44" height="44" rx="7" fill="#69f0ae" opacity="0.78"/><rect x="260" y="18" width="44" height="44" rx="7" fill="#b388ff" opacity="0.78"/><rect x="314" y="18" width="44" height="44" rx="7" fill="#ffffff" opacity="0.78"/>
+    <rect x="44" y="80" width="312" height="22" rx="4" fill="#00e5ff" opacity="0.35"/>
+    <rect x="44" y="110" width="210" height="12" rx="3" fill="#80deea" opacity="0.22"/>
+    <rect x="44" y="132" width="96" height="52" rx="8" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.65"/>
+    <circle cx="92" cy="158" r="17" fill="#00e5ff" opacity="0.3"/>
+    <rect x="152" y="138" width="198" height="12" rx="3" fill="#00e5ff" opacity="0.2"/>
+    <rect x="152" y="160" width="165" height="8" rx="2" fill="#80deea" opacity="0.18"/></g>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="400" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Invitation Cards">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#031520"/>
+      <stop offset="100%" stop-color="#073d5e"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <rect width="400" height="260" fill="url(#dots)"/>
+  <g filter="url(#glow)">
+    <rect x="58" y="55" width="284" height="152" rx="12" fill="none" stroke="#00e5ff" stroke-width="2.5" opacity="0.9"/>
+    <polygon points="58,55 200,138 342,55" fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.7"/>
+    <polygon points="58,207 135,145 200,185" fill="#00e5ff" opacity="0.1"/>
+    <polygon points="342,207 265,145 200,185" fill="#00e5ff" opacity="0.1"/>
+    <circle cx="200" cy="185" r="24" fill="#00e5ff" opacity="0.35"/>
+    <circle cx="200" cy="185" r="15" fill="none" stroke="#00e5ff" stroke-width="1.5" opacity="0.75"/>
+    <path d="M72,30 Q200,10 328,30" fill="none" stroke="#80deea" stroke-width="2" opacity="0.48"/></g>
+</svg>
