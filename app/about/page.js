@@ -31,7 +31,7 @@ export default function AboutPage() {
       <section className="section">
         <div className={`container ${styles.storyGrid}`}>
           <Reveal>
-            <Image src="/images/pic.jpg" alt="NXRA DIGITAL studio space" width={800} height={600} className={styles.storyImg} style={{ objectFit: 'cover' }} quality={100} loading="lazy" />
+            <Image src="/images/office-background.svg" alt="NXRA DIGITAL studio space" width={800} height={600} className={styles.storyImg} style={{ objectFit: 'cover' }} quality={100} loading="lazy" />
           </Reveal>
           <Reveal delay={120}>
             <span className="eyebrow">Our Story</span>

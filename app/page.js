@@ -37,7 +37,7 @@ export default function HomePage() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroBg} aria-hidden="true">
-          <Image src="/images/BACK.png" alt="Modern Workspace" fill priority quality={100} sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center' }} />
+          <Image src="/images/hero-background.svg" alt="Modern Workspace" fill priority quality={100} sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center' }} />
           <div style={{ position: 'absolute', inset: 0, zIndex: 1 }}>
             <SideRays
               speed={2.5}
@@ -75,7 +75,7 @@ export default function HomePage() {
       <section className="section">
         <div className={`container ${styles.aboutGrid}`}>
           <Reveal as="div">
-            <Image src="/images/nxra.PNG" alt="NXRA DIGITAL Logo" width={600} height={600} className={styles.aboutImg} style={{ objectFit: 'contain' }} loading="lazy" />
+            <Image src="/images/nxra.jpg" alt="NXRA DIGITAL Logo" width={600} height={600} className={styles.aboutImg} style={{ objectFit: 'contain' }} loading="lazy" />
           </Reveal>
           <Reveal as="div" delay={120}>
             <span className="eyebrow">About NXRA DIGITAL</span>

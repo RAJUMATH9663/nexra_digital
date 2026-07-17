@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="gold-seam" />
       <div className={`container ${styles.grid}`}>
         <div className={styles.brandCol}>
-          <Image src="/images/nxra.PNG" alt="NXRA DIGITAL" width={168} height={168} className={styles.logoImage} />
+          <Image src="/images/nxra.jpg" alt="NXRA DIGITAL" width={168} height={168} className={styles.logoImage} />
           <p className={styles.tagline}>Turning Vision Into Digital Reality</p>
           <div className={styles.social}>
             {SOCIAL.map((s) => (
