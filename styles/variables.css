@@ -27,6 +27,15 @@
   --glass-bg: rgba(13, 38, 71, 0.55);
   --glass-border: rgba(255, 255, 255, 0.09);
 
+  /* Light Theme Semantic */
+  --bg-light: #fafafa;
+  --bg-elevated-light: #ffffff;
+  --text-dark: #111827;
+  --text-muted-dark: #4b5563;
+  --border-light: rgba(17, 24, 39, 0.1);
+  --glass-bg-light: rgba(255, 255, 255, 0.85);
+  --glass-border-light: rgba(0, 0, 0, 0.05);
+
   /* Gradients */
   --grad-hero: linear-gradient(135deg, var(--navy) 0%, var(--royal-blue) 55%, var(--navy-3) 100%);
   --grad-seam: linear-gradient(90deg, transparent 0%, var(--gold) 50%, transparent 100%);
@@ -36,6 +45,7 @@
   /* Typography — loaded via next/font/google in app/layout.js */
   --font-display: var(--font-montserrat), 'Segoe UI', sans-serif;
   --font-body: var(--font-poppins), 'Segoe UI', sans-serif;
+  --font-serif: var(--font-playfair), 'Georgia', serif;
 
   --fs-display-xl: clamp(2.75rem, 6vw, 5rem);
   --fs-display-lg: clamp(2.1rem, 4vw, 3.25rem);

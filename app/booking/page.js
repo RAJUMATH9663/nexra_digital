@@ -35,7 +35,7 @@ const FAQS = [
 
 export default function BookingPage() {
   return (
-    <>
+    <div className="theme-light">
       {/* Calendly inline widget script */}
       <Script
         src="https://assets.calendly.com/assets/external/widget.js"
@@ -82,7 +82,7 @@ export default function BookingPage() {
             */}
             <div
               className="calendly-inline-widget"
-              data-url="https://calendly.com/rajumthpt/new-meeting?hide_event_type_details=1&hide_gdpr_banner=1&background_color=071b35&text_color=e2e8f0&primary_color=eab308"
+              data-url="https://calendly.com/rajumthpt/new-meeting?hide_event_type_details=1&hide_gdpr_banner=1&background_color=fafafa&text_color=111827&primary_color=111827"
               style={{ minWidth: '320px', height: '700px' }}
             />
           </div>
@@ -103,6 +103,6 @@ export default function BookingPage() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

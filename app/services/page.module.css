@@ -19,7 +19,7 @@
 }
 
 .ctaSection {
-  background: var(--navy-2);
+  background: var(--bg-elevated);
   padding: var(--space-6) 0;
   text-align: center;
   border-top: 1px solid var(--border-soft);

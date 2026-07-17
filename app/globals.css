@@ -189,3 +189,53 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 768px) {
   .section { padding: var(--space-5) 0; }
 }
+
+/* Light Theme for Internal Pages */
+.theme-light {
+  --bg: var(--bg-light);
+  --bg-elevated: var(--bg-elevated-light);
+  background: var(--bg);
+  color: var(--text-dark);
+  min-height: 100vh;
+}
+
+.theme-light h1, 
+.theme-light h2, 
+.theme-light h3, 
+.theme-light h4, 
+.theme-light h5, 
+.theme-light .eyebrow {
+  color: var(--text-dark);
+}
+
+.theme-light h1, 
+.theme-light h2, 
+.theme-light h3 {
+  font-family: var(--font-serif);
+}
+
+.theme-light .section-heading {
+  color: var(--text-dark);
+}
+
+.theme-light .section-sub {
+  color: var(--text-muted-dark);
+}
+
+.theme-light .glass {
+  background: var(--glass-bg-light);
+  border: 1px solid var(--glass-border-light);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.theme-light .btn-outline {
+  color: var(--text-dark);
+  border-color: var(--border-light);
+}
+
+.theme-light .btn-outline:hover {
+  background: var(--text-dark);
+  color: var(--white);
+  border-color: var(--text-dark);
+}
+

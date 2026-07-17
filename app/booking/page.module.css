@@ -2,7 +2,7 @@
 .hero {
   padding: 7rem 0 3.5rem;
   text-align: center;
-  background: linear-gradient(180deg, var(--navy-1) 0%, var(--navy-2) 100%);
+  background: linear-gradient(180deg, var(--navy-1) 0%, var(--bg-elevated) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -39,7 +39,7 @@
 /* ── Benefits ── */
 .benefits {
   padding: 3.5rem 0;
-  background: var(--navy-2);
+  background: var(--bg-elevated);
   border-top: 1px solid var(--border-soft);
   border-bottom: 1px solid var(--border-soft);
 }
@@ -130,7 +130,7 @@
 /* ── FAQ ── */
 .faqSection {
   padding: 5rem 0 6rem;
-  background: var(--navy-2);
+  background: var(--bg-elevated);
   border-top: 1px solid var(--border-soft);
 }
 

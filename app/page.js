@@ -91,7 +91,7 @@ export default function HomePage() {
       </section>
 
       {/* SERVICES */}
-      <section className="section" style={{ background: 'var(--navy-2)' }}>
+      <section className="section" style={{ background: 'var(--bg-elevated)' }}>
         <div className="container">
           <Reveal>
             <span className="eyebrow">What We Do</span>
@@ -190,7 +190,7 @@ export default function HomePage() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="section" style={{ background: 'var(--navy-2)' }}>
+      <section className="section" style={{ background: 'var(--bg-elevated)' }}>
         <div className="container">
           <Reveal>
             <span className="eyebrow">Testimonials</span>

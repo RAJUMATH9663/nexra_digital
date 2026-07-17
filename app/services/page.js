@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function ServicesPage() {
   return (
-    <>
+    <div className="theme-light">
       <section className={`section ${styles.pageHero}`}>
         <div className="container">
           <Reveal>
@@ -49,6 +49,6 @@ export default function ServicesPage() {
           </Reveal>
         </div>
       </section>
-    </>
+    </div>
   );
 }

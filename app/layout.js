@@ -1,4 +1,4 @@
-import { Montserrat, Poppins } from 'next/font/google';
+import { Montserrat, Poppins, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -15,6 +15,13 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600'],
   variable: '--font-poppins',
+  display: 'swap',
+});
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-playfair',
   display: 'swap',
 });
 
@@ -68,7 +75,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en" className={`${montserrat.variable} ${poppins.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${poppins.variable} ${playfair.variable}`}>
       <body>
         <a href="#main-content" className="skip-link">Skip to content</a>
         <script

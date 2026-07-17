@@ -18,7 +18,7 @@ const SOCIALS = [
 
 export default function ContactPage() {
   return (
-    <>
+    <div className="theme-light">
       <section className={`section ${styles.pageHero}`}>
         <div className="container">
           <Reveal>
@@ -57,6 +57,6 @@ export default function ContactPage() {
           </Reveal>
         </div>
       </section>
-    </>
+    </div>
   );
 }

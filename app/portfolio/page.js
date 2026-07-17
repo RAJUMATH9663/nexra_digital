@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function PortfolioPage() {
   return (
-    <>
+    <div className="theme-light">
       <section className={`section ${styles.pageHero}`}>
         <div className="container">
           <Reveal>
@@ -31,6 +31,6 @@ export default function PortfolioPage() {
           <PortfolioGrid items={PORTFOLIO_ITEMS} categories={PORTFOLIO_CATEGORIES} />
         </div>
       </section>
-    </>
+    </div>
   );
 }

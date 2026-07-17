@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <>
+    <div className="theme-light">
       <section className={`section ${styles.pageHero}`}>
         <div className="container">
           <Reveal>
@@ -47,7 +47,7 @@ export default function AboutPage() {
       </section>
 
       {/* MISSION / VISION */}
-      <section className="section" style={{ background: 'var(--navy-2)' }}>
+      <section className="section" style={{ background: 'var(--bg-elevated)' }}>
         <div className={`container ${styles.mvGrid}`}>
           <Reveal className={`${styles.mvCard} glass`}>
             <Icon name="growth" size={30} className={styles.mvIcon} />
@@ -82,7 +82,7 @@ export default function AboutPage() {
       </section>
 
       {/* TECH STACK */}
-      <section className="section" style={{ background: 'var(--navy-2)' }}>
+      <section className="section" style={{ background: 'var(--bg-elevated)' }}>
         <div className="container">
           <Reveal>
             <span className="eyebrow">Technology Stack</span>
@@ -122,7 +122,7 @@ export default function AboutPage() {
       </section>
 
       {/* WHY CHOOSE US */}
-      <section className="section" style={{ background: 'var(--navy-2)' }}>
+      <section className="section" style={{ background: 'var(--bg-elevated)' }}>
         <div className="container">
           <Reveal>
             <span className="eyebrow">Why Choose NXRA DIGITAL</span>
@@ -144,6 +144,6 @@ export default function AboutPage() {
           </Reveal>
         </div>
       </section>
-    </>
+    </div>
   );
 }
