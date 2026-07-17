@@ -1,8 +1,8 @@
 {
-  "name": "nexra-digital",
+  "name": "nxra-digital",
   "version": "1.0.0",
   "private": true,
-  "description": "NEXRA DIGITAL — Turning Vision Into Digital Reality. Premium creative agency website.",
+  "description": "NXRA DIGITAL — Turning Vision Into Digital Reality. Premium creative agency website.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

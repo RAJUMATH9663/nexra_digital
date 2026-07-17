@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="gold-seam" />
       <div className={`container ${styles.grid}`}>
         <div className={styles.brandCol}>
-          <Image src="/images/nexra.PNG" alt="NEXRA DIGITAL" width={168} height={168} className={styles.logoImage} />
+          <Image src="/images/nxra.PNG" alt="NXRA DIGITAL" width={168} height={168} className={styles.logoImage} />
           <p className={styles.tagline}>Turning Vision Into Digital Reality</p>
           <div className={styles.social}>
             {SOCIAL.map((s) => (
@@ -55,13 +55,13 @@ export default function Footer() {
           <ul className={styles.contactList}>
             <li><Icon name="location" size={16} /> Bengaluru, Karnataka, India</li>
             <li><Icon name="phone" size={16} /> <a href="tel:+918618914432">+91 86189 14432</a></li>
-            <li><Icon name="email" size={16} /> <a href="mailto:rajumthpt@gmail.com">rajumthpt@gmail.com</a><br/><a href="mailto:nexradigital9@gmail.com">nexradigital9@gmail.com</a></li>
+            <li><Icon name="email" size={16} /> <a href="mailto:rajumthpt@gmail.com">rajumthpt@gmail.com</a><br/><a href="mailto:nxradigital9@gmail.com">nxradigital9@gmail.com</a></li>
           </ul>
         </div>
       </div>
 
       <div className={`container ${styles.bottom}`}>
-        <p>&copy; {new Date().getFullYear()} NEXRA DIGITAL. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} NXRA DIGITAL. All rights reserved.</p>
         <div className={styles.legal}>
           <Link href="/contact">Privacy Policy</Link>
           <span aria-hidden="true">•</span>

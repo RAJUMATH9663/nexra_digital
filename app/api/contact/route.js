@@ -18,12 +18,12 @@ export async function POST(request) {
     });
 
     const mailOptions = {
-      from: process.env.SMTP_USER || 'noreply@nexradigital.com',
-      to: 'rajumthpt@gmail.com, nexradigital9@gmail.com',
+      from: process.env.SMTP_USER || 'noreply@nxradigital.com',
+      to: 'rajumthpt@gmail.com, nxradigital9@gmail.com',
       replyTo: email,
-      subject: `New Lead from NEXRA DIGITAL: ${name} (${service})`,
+      subject: `New Lead from NXRA DIGITAL: ${name} (${service})`,
       text: `
-You have received a new contact form submission on NEXRA DIGITAL.
+You have received a new contact form submission on NXRA DIGITAL.
 
 Name: ${name}
 Phone: ${phone}

@@ -1,8 +1,8 @@
-# NEXRA DIGITAL
+# NXRA DIGITAL
 
 **Turning Vision Into Digital Reality**
 
-A premium, production-ready marketing website for NEXRA DIGITAL — a full-service creative agency
+A premium, production-ready marketing website for NXRA DIGITAL — a full-service creative agency
 covering photography, videography, branding, web & software development, and digital marketing.
 
 Built with Next.js (App Router), React, and hand-written CSS (no Tailwind), and structured so a

@@ -12,7 +12,7 @@ import styles from './page.module.css';
 export const metadata = {
   title: 'Home',
   description:
-    'NEXRA DIGITAL turns vision into digital reality with photography, videography, branding, websites, software development, and digital marketing.',
+    'NXRA DIGITAL turns vision into digital reality with photography, videography, branding, websites, software development, and digital marketing.',
 };
 
 const homeServices = HOME_SERVICES_SUBSET.map((slug) => SERVICES.find((s) => s.slug === slug));
@@ -37,7 +37,7 @@ export default function HomePage() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroBg} aria-hidden="true">
-          <Image src="/images/workspace-bg.jpg" alt="Modern Workspace" fill priority quality={100} sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center' }} />
+          <Image src="/images/BACK.png" alt="Modern Workspace" fill priority quality={100} sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center' }} />
           <div style={{ position: 'absolute', inset: 0, zIndex: 1 }}>
             <SideRays
               speed={2.5}
@@ -75,13 +75,13 @@ export default function HomePage() {
       <section className="section">
         <div className={`container ${styles.aboutGrid}`}>
           <Reveal as="div">
-            <Image src="/images/nexra.PNG" alt="NEXRA DIGITAL Logo" width={600} height={600} className={styles.aboutImg} style={{ objectFit: 'contain' }} loading="lazy" />
+            <Image src="/images/nxra.PNG" alt="NXRA DIGITAL Logo" width={600} height={600} className={styles.aboutImg} style={{ objectFit: 'contain' }} loading="lazy" />
           </Reveal>
           <Reveal as="div" delay={120}>
-            <span className="eyebrow">About NEXRA DIGITAL</span>
+            <span className="eyebrow">About NXRA DIGITAL</span>
             <h2 className="section-heading">A full-service creative team, built for founders who don&apos;t want to juggle five vendors</h2>
             <p className="section-sub">
-              NEXRA DIGITAL brings photography, film, brand design, engineering, and marketing under one roof.
+              NXRA DIGITAL brings photography, film, brand design, engineering, and marketing under one roof.
               Since 2019 we&apos;ve helped founders and growing teams launch brands that look — and perform —
               like they belong at the top of their category.
             </p>
@@ -115,7 +115,7 @@ export default function HomePage() {
         <div className="container">
           <Reveal>
             <span className="eyebrow">Why Choose Us</span>
-            <h2 className="section-heading">Seven reasons founders stay with NEXRA past project one</h2>
+            <h2 className="section-heading">Seven reasons founders stay with NXRA past project one</h2>
           </Reveal>
           <div className={styles.whyGrid}>
             {WHY_CHOOSE_US.map((w, i) => (

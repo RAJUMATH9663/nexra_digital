@@ -35,7 +35,7 @@ export default function ContactForm() {
     return (
       <div className={`${styles.success} glass`} role="status">
         <h3>Message sent</h3>
-        <p>Thanks for reaching out — a member of the NEXRA DIGITAL team will reply within one business day.</p>
+        <p>Thanks for reaching out — a member of the NXRA DIGITAL team will reply within one business day.</p>
         <button className="btn btn-outline btn-sm" onClick={() => setStatus('idle')}>Send another message</button>
       </div>
     );

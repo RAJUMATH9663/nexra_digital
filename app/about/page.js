@@ -8,7 +8,7 @@ import styles from './page.module.css';
 export const metadata = {
   title: 'About Us',
   description:
-    'NEXRA DIGITAL is a full-service creative agency founded in 2019 — our story, mission, vision, core values, technology stack, and timeline.',
+    'NXRA DIGITAL is a full-service creative agency founded in 2019 — our story, mission, vision, core values, technology stack, and timeline.',
 };
 
 export default function AboutPage() {
@@ -17,10 +17,10 @@ export default function AboutPage() {
       <section className={`section ${styles.pageHero}`}>
         <div className="container">
           <Reveal>
-            <span className="eyebrow">About NEXRA DIGITAL</span>
+            <span className="eyebrow">About NXRA DIGITAL</span>
             <h1 className={styles.title}>Built by people who&apos;d rather ship than pitch</h1>
             <p className="section-sub">
-              We started NEXRA DIGITAL because growing brands kept stitching together five different vendors for
+              We started NXRA DIGITAL because growing brands kept stitching together five different vendors for
               photography, design, and code. We built the team that does it all, to one standard.
             </p>
           </Reveal>
@@ -31,13 +31,13 @@ export default function AboutPage() {
       <section className="section">
         <div className={`container ${styles.storyGrid}`}>
           <Reveal>
-            <Image src="/images/pic.jpg" alt="NEXRA DIGITAL studio space" width={800} height={600} className={styles.storyImg} style={{ objectFit: 'cover' }} quality={100} loading="lazy" />
+            <Image src="/images/pic.jpg" alt="NXRA DIGITAL studio space" width={800} height={600} className={styles.storyImg} style={{ objectFit: 'cover' }} quality={100} loading="lazy" />
           </Reveal>
           <Reveal delay={120}>
             <span className="eyebrow">Our Story</span>
             <h2 className="section-heading">From a one-room studio to a full digital practice</h2>
             <p className="section-sub">
-              NEXRA DIGITAL opened in 2019 with a single shared camera kit and a conviction that brand, design, and
+              NXRA DIGITAL opened in 2019 with a single shared camera kit and a conviction that brand, design, and
               engineering shouldn&apos;t live in separate agencies. Five years on, we run photography and film
               production, full brand identity work, and Next.js / Django software builds — all from one team that
               carries a project from first shoot to shipped product.
@@ -125,7 +125,7 @@ export default function AboutPage() {
       <section className="section" style={{ background: 'var(--navy-2)' }}>
         <div className="container">
           <Reveal>
-            <span className="eyebrow">Why Choose NEXRA DIGITAL</span>
+            <span className="eyebrow">Why Choose NXRA DIGITAL</span>
             <h2 className="section-heading">The reasons clients renew instead of rebidding</h2>
           </Reveal>
           <div className={styles.whyGrid}>

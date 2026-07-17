@@ -2,9 +2,9 @@ import Script from 'next/script';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Book a Free Consultation | NEXRA DIGITAL',
+  title: 'Book a Free Consultation | NXRA DIGITAL',
   description:
-    'Schedule a free 30-minute consultation with the NEXRA DIGITAL team. We help founders with photography, videography, branding, websites, and digital marketing.',
+    'Schedule a free 30-minute consultation with the NXRA DIGITAL team. We help founders with photography, videography, branding, websites, and digital marketing.',
 };
 
 const BENEFITS = [
@@ -77,7 +77,7 @@ export default function BookingPage() {
           <div className={styles.calWrapper}>
             {/*
               ⚠️ REPLACE the data-url below with your actual Calendly link.
-              Example: https://calendly.com/nexradigital/consultation
+              Example: https://calendly.com/nxradigital/consultation
               Get your free link at: https://calendly.com
             */}
             <div

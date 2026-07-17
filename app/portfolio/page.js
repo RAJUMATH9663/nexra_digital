@@ -6,7 +6,7 @@ import styles from './page.module.css';
 export const metadata = {
   title: 'Portfolio',
   description:
-    'Browse NEXRA DIGITAL work across video editing, photography & videography, graphic design, social media management, digital marketing, and website development.',
+    'Browse NXRA DIGITAL work across video editing, photography & videography, graphic design, social media management, digital marketing, and website development.',
 };
 
 export default function PortfolioPage() {

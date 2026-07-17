@@ -7,7 +7,7 @@ import styles from './page.module.css';
 export const metadata = {
   title: 'Services',
   description:
-    'Explore NEXRA DIGITAL services: photography, videography, drone shoots, video editing, website & software development, UI/UX, branding, SEO, and digital marketing.',
+    'Explore NXRA DIGITAL services: photography, videography, drone shoots, video editing, website & software development, UI/UX, branding, SEO, and digital marketing.',
 };
 
 export default function ServicesPage() {
@@ -19,7 +19,7 @@ export default function ServicesPage() {
             <span className="eyebrow">Services</span>
             <h1 className={styles.title}>Every capability your brand needs, under one roof</h1>
             <p className="section-sub">
-              From the first product shoot to the software that runs your business, NEXRA DIGITAL scopes each
+              From the first product shoot to the software that runs your business, NXRA DIGITAL scopes each
               engagement around a measurable outcome — not a generic package.
             </p>
           </Reveal>

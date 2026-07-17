@@ -1,7 +1,7 @@
 'use client';
 
 /*
- * Central inline icon set for NEXRA DIGITAL.
+ * Central inline icon set for NXRA DIGITAL.
  * All icons share a 0 0 48 48 viewBox and use currentColor so they can be
  * themed (gold on hover, white default, navy on light cards) purely via CSS.
  * Source SVG files also live in /public/icons for direct <img> use, favicons,

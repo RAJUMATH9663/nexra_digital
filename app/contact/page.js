@@ -6,11 +6,11 @@ import styles from './page.module.css';
 export const metadata = {
   title: 'Contact',
   description:
-    'Get in touch with NEXRA DIGITAL for a free consultation on photography, videography, branding, website & software development, or digital marketing.',
+    'Get in touch with NXRA DIGITAL for a free consultation on photography, videography, branding, website & software development, or digital marketing.',
 };
 
 const SOCIALS = [
-  { name: 'Instagram', href: 'https://www.instagram.com/nexradigital.in?igsh=NHd5bm94aDN4d2E=', icon: 'photography' },
+  { name: 'Instagram', href: 'https://www.instagram.com/nxradigital.in?igsh=NHd5bm94aDN4d2E=', icon: 'photography' },
   { name: 'Facebook', href: 'https://facebook.com', icon: 'branding' },
   { name: 'LinkedIn', href: 'https://linkedin.com', icon: 'software' },
   { name: 'YouTube', href: 'https://youtube.com', icon: 'videography' },
@@ -43,7 +43,7 @@ export default function ContactPage() {
               <h3>Business Information</h3>
               <ul className={styles.infoList}>
                 <li><Icon name="phone" size={18} /> <a href="tel:+918618914432">+91 86189 14432</a></li>
-                <li><Icon name="email" size={18} /> <a href="mailto:rajumthpt@gmail.com">rajumthpt@gmail.com</a><br/><a href="mailto:nexradigital9@gmail.com" style={{marginLeft: '26px'}}>nexradigital9@gmail.com</a></li>
+                <li><Icon name="email" size={18} /> <a href="mailto:rajumthpt@gmail.com">rajumthpt@gmail.com</a><br/><a href="mailto:nxradigital9@gmail.com" style={{marginLeft: '26px'}}>nxradigital9@gmail.com</a></li>
                 <li><Icon name="delivery" size={18} /> Mon &ndash; Sat, 9:00 AM &ndash; 7:00 PM IST</li>
               </ul>
               <div className={styles.social}>

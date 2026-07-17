@@ -33,8 +33,8 @@ export default function Navbar() {
   return (
     <header className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.inner}`}>
-        <Link href="/" className={styles.brand} aria-label="NEXRA DIGITAL home">
-          <Image src="/images/nexra.PNG" alt="NEXRA DIGITAL" width={168} height={168} className={styles.logoImage} priority />
+        <Link href="/" className={styles.brand} aria-label="NXRA DIGITAL home">
+          <Image src="/images/nxra.PNG" alt="NXRA DIGITAL" width={168} height={168} className={styles.logoImage} priority />
         </Link>
 
         <nav className={styles.links} aria-label="Primary">
